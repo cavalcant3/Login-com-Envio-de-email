@@ -1,0 +1,19 @@
+#spring.datasource.platform=postgres
+#spring.datasource.url=jdbc:postgresql://localhost/postgres
+#spring.datasource.username=postgres
+#spring.datasource.password=postgres
+#spring.jpa.show-sql=true
+#spring.jpa.generate-ddl=true
+#spring.jpa.hibernate.ddl-auto=create
+server:
+  error:
+    include-stacktrace: on_param
+
+spring:
+  datasource:
+    url:jdbc:postgres://localhost:3306/postgres?useSSL=false&createDatabaseIfnotExist=true
+  username: root
+  password: postgres
+jpa:
+  hibernate:
+    ddl-auto: update
