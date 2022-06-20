@@ -11,7 +11,7 @@ server:
 
 spring:
   datasource:
-    url:jdbc:postgres://localhost:3306/postgres?useSSL=false&createDatabaseIfnotExist=true
+    url: jdbc:postgres://localhost:3306/registration #postgres?useSSL=false&createDatabaseIfnotExist=true
   username: root
   password: postgres
 jpa:
